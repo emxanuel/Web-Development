@@ -1,0 +1,127 @@
+:root{
+    --blue: #1877f2;
+    --green: #42b72a;
+}
+
+*{
+    margin: 0px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;;
+}
+
+body{
+    background-color: #f0f2f5;
+}
+
+img{
+    margin: -32px;
+    margin-bottom: -10px;
+}
+
+#container{ 
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 550px 500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    gap: 50px;
+}
+
+#texto-principal h1{
+    color: var(--blue);
+}
+
+#texto-principal{
+    font-size: 30px;
+}
+
+#form-login{
+    background-color: white;
+    width: 380px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 6px rgb(172, 172, 172);
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#form-login input{
+    margin: 7px 0px;
+    border-radius: 8px;
+    font-size: 16px
+}
+
+#form-login input[type="text"],input[type="password"]{
+    width: 370px;
+    height: 45px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+
+#form-login input[type="submit"]{
+    width: 370px;
+    height: 45px;
+    background-color: var(--blue);
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+#form-login a{
+    font-size: 15px;
+    color: var(--blue);
+    text-decoration: none;
+}
+
+#form-login button{
+    width: 180px;
+    height: 6vh;
+    background-color: var(--green);
+    border: none;
+    font-size: 18px;
+    color: white;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+#login p{
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 1300px){
+    #container{
+        gap: 20vw;
+    }
+}
+
+@media screen and (max-width: 700px){
+    body{
+        background-color: rgb(11, 11, 11);
+        color: white;
+    }
+    nav{
+        display: flex;
+    }
+    h1{
+        float: left;
+        clear: both;
+    }
+    nav ul li{
+        float: left;
+        list-style: none;
+        cursor: pointer;
+    }
+    #first-ul{
+        align-content: end;
+    }
+    #first-ul li{
+        margin-right: 6px;
+    }
+    #second-ul li{
+        margin-left: 10p;
+    }
+}
