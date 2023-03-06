@@ -1,0 +1,59 @@
+*{
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eee;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  background-color: #f5ba13;
+  width: 100vw;
+  height: 80px;
+  color: white;
+  font-size: 16px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.300);
+}
+
+header h1{
+  font-family: "McLaren", cursive;
+  font-weight: 100;
+}
+
+#note{
+  background-color: white;
+  width: 220px;
+  height: 65px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.300);
+  margin-top: 18px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+#note h1{
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#note p{
+  font-size: 18px;
+}
+
+#note, header h1{
+  margin-left: 37px;
+}
+
+footer{
+  margin-top: 70vh;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  color: rgb(197, 197, 197);
+}
